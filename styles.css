@@ -1,0 +1,149 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: orange;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+h1 {
+    font-weight: 700;
+    margin: 0 5px 0 0;
+    font-size: 1.4rem;
+}
+
+.role {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: gray;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    font-size: 1rem;
+}
+
+nav ul li a {
+    font-weight: 500;
+    color: black;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.profile-photo img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.intro-text {
+    margin-top: 30px;
+}
+
+.intro-text h2 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.intro-text p {
+    font-size: 1rem;
+    color: gray;
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.resume {
+    background-color: orange;
+}
+
+.projects {
+    background-color: red;
+}
+
+.contact {
+    background-color: lightblue;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-top: 1px solid #ddd;
+}
+
+.contact-info p,
+.social-links a {
+    margin: 0;
+    color: gray;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    color: gray;
+}
