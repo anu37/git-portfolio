@@ -24,7 +24,7 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 20px 40px;
-    background-color: white;
+    background-color: black;
     border-bottom: 1px solid #ddd;
     align-items: center;
 }
@@ -156,7 +156,7 @@ nav ul li a {
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-    background-color: white;
+    background-color: black;
     border-top: 1px solid #ddd;
 }
 
