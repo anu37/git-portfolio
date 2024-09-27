@@ -128,7 +128,7 @@ nav ul li a {
 }
 .resume::after {
     content: "\f019";
-    font-family: "Font Awesome 5 free;
+    font-family: "Font Awesome 5 free";
     font-weight: 900;
     margin-left: 10px;
 }
@@ -142,7 +142,7 @@ nav ul li a {
 }
 .contact::after {
     content: "\f0e0";
-    font-family: "Font Awesome 5 free;
+    font-family: "Font Awesome 5 free";
     font-weight: 900;
     margin-left: 10px;
 }
