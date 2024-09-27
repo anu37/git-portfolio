@@ -40,18 +40,27 @@ ul {
     background-color: orange;
     border-radius: 50%;
     margin-right: 10px;
+    align-items: center;
 }
 
 h1 {
-    font-weight: 700;
+    font-weight: 800;
     margin: 0 5px 0 0;
-    font-size: 1.4rem;
+    font-size: 2rem;
+    align-items: center;
+    color: white;
+    display: inline-block;
 }
 
 .role {
-    font-size: 0.9rem;
-    font-weight: 400;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    margin: 10 5px 0 0;
+    font-weight: 300;
     color: gray;
+    align-items: center;
+    display: inline-block;
 }
 
 nav ul {
@@ -70,21 +79,23 @@ nav ul li a {
 
 .intro {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 40px;
+    padding: 90px;
 }
 
 .profile-photo img {
-    width: 220px;
-    height: 220px;
+    width: 420px;
+    height: 440px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: fill;
+    margin-left: 300px;
+    margin-top: 40px;
 }
 
 .intro-text {
     margin-top: 30px;
+    text-align: left;
+    max-width: 500px;
+    margin-left: 40px;
 }
 
 .intro-text h2 {
@@ -115,13 +126,25 @@ nav ul li a {
 .resume {
     background-color: orange;
 }
+.resume::after {
+    content: "\f019";
+    font-family: "Font Awesome 5 free;
+    font-weight: 900;
+    margin-left: 10px;
+}
 
 .projects {
     background-color: red;
 }
 
 .contact {
-    background-color: lightblue;
+    background-color: orange;
+}
+.contact::after {
+    content: "\f0e0";
+    font-family: "Font Awesome 5 free;
+    font-weight: 900;
+    margin-left: 10px;
 }
 
 .btn:hover {
