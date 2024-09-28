@@ -86,9 +86,9 @@ nav ul li a {
     width: 420px;
     height: 440px;
     border-radius: 50%;
-    object-fit: fill;
-    margin-left: 300px;
-    margin-top: 40px;
+    object-fit: cover;
+    margin-left: 200px;
+    /* margin-top: 10px; */
 }
 
 .intro-text {
@@ -164,6 +164,8 @@ nav ul li a {
 .social-links a {
     margin: 0;
     color: gray;
+    font-size: 1.5rem;
+    margin-right: 10px;
 }
 
 .copyright {
